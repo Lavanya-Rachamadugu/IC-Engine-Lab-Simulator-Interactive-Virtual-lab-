@@ -1,0 +1,965 @@
+/* universal */
+*{
+    font-family: "comic sans MS", sans-serif;
+}
+#form_container{
+    width:65rem;
+    height:40rem;
+    border:solid;
+    position:relative;
+    overflow:hidden;
+}
+.forms{
+    width:65rem;
+    height:40rem;
+    position:absolute;
+}
+
+#form2{
+    left:80rem;
+}
+#form3{
+    left:80rem;
+}
+#form4{
+    left:80rem;
+}
+#form5{
+    left:80rem;
+}
+#form6{
+    left:80rem;
+}
+#form7{
+    left:80rem;
+}
+#form8{
+    left:80rem;
+}
+
+/* grid container */
+.grid_container{
+    display:grid;
+    grid-template-columns: 55rem 10rem;
+    grid-template-rows: 2rem 7rem 25rem 5rem 1rem ;
+}
+.grid1{
+    grid-area:1/1/2/3 ;
+    text-align:center;
+    background-color:black;
+    color:white;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+.grid2{
+    grid-area:2/1/3/3;
+    text-align: justify;
+    padding-left:1.5rem;
+    padding-right:0.5rem;
+    padding-top:0.25rem;
+    font-weight: 400;
+    font-size: large;
+    /* border:solid; */
+}
+.grid3{
+    grid-area:3/1/5/2;
+    padding-left:1rem;
+}
+.grid4{
+    grid-area:3/2/4/3;
+    /* border:solid; */
+}
+.grid5{
+    grid-area:4/2/5/3;
+    position:relative;
+}
+.grid6{
+    grid-area:5/1/6/3;
+    text-align:center;
+    font-size:0.5rem;
+    font-size:0.7rem;
+}
+
+/* next */
+.button{
+    border-radius:50%;
+    height:2rem;
+    width:2rem;
+    left:4rem;
+    position:absolute;
+    background-color:transparent;
+    border:none;
+}
+
+/* arrow */
+@keyframes blinkingarrow {
+    0% {opacity: 1;}
+    25%{opacity: 0;}
+    50% {opacity: 1;}
+    75%{opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.blinkarrow{
+    animation-name: blinkingarrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position:absolute;
+    
+}
+.arrow{
+    height:2.5rem;
+    /* transition-delay: 4s; */
+}
+/* forms pics */
+#formpic1_0{
+    height:30rem;
+    /* border:solid; */
+    width:54rem;
+}
+
+#formpic2_0{
+    height:30rem;
+    width:54rem;
+}
+
+p{
+    rotate:0deg !important;
+    position:absolute;
+    border:solid;
+    font-size:0.8rem;
+    padding:0.5rem;
+    animation-name: blinkingarrow;
+    /* animation-duration: 2s;
+    animation-iteration-count: 3; */
+}
+
+
+#form21{
+    left:51rem;
+    bottom:17.5rem;
+}
+#form22{
+    left:56rem;
+    bottom:9rem;
+    visibility:hidden;
+}
+#form23{
+    left:38rem;
+    bottom:0rem;
+    visibility:hidden;
+    transition-delay:1s;
+}
+#form24{
+    left:39rem;
+    bottom:0rem;
+    visibility:hidden;
+}
+#form25{
+    left:15.5rem;
+    bottom:15rem;
+    visibility:hidden;
+}
+#form26{
+    left:51rem;
+    bottom:17.5rem;
+    visibility:hidden;
+}
+#form27{
+    left:30rem;
+    bottom:19rem;
+    visibility:hidden;
+}
+#form31{
+    left:16rem;
+    bottom:15rem;
+}
+#form32{
+    left:50rem;
+    bottom:11rem;
+    visibility:hidden;
+}
+#form33{
+    left:50rem;
+    bottom:3rem;
+    visibility:hidden;
+    transition-delay:7s;
+}
+#form34{
+    left:35rem;
+    bottom:27rem;
+    visibility:hidden;
+}
+/* form2 */
+#form2fuellength{
+    position:absolute;
+    height:4.7rem;
+    width:0.7rem;
+    background-color: orange;
+    left:46.5rem;
+    bottom:18.6rem;
+}
+#directionform21{
+    position:absolute;
+    height:5rem;
+    width:1rem;
+    left:50rem;
+    bottom:16rem;
+    rotate:90deg;
+    visibility:hidden;
+}
+#directionform22{
+    position:absolute;
+    height:11rem;
+    width:1rem;
+    left:46rem;
+    bottom:7rem;
+    rotate:45deg;
+    visibility:hidden;
+}
+#directionform23{
+    position:absolute;
+    height:2.7rem;
+    width:0.8rem;
+    left:43rem;
+    bottom:4.5rem;
+    rotate:150deg;
+    visibility:hidden;
+}
+
+#form2waterlength1{
+    position:absolute;
+    height:5rem;
+    width:0.7rem;
+    background-color:skyblue;
+    left:38.4rem;
+    bottom:7.65rem;
+}
+#form2waterlength2{
+    position:absolute;
+    height:5rem;
+    width:0.7rem;
+    background-color:skyblue;
+    left:41.1rem;
+    bottom:7.65rem;
+}
+#fuelindicationimage{
+    position:absolute;
+    left:53rem;
+    top:12rem;
+    visibility:hidden;
+}
+#form2fuelindication{
+    height:15rem;
+    visibility: hidden;
+    
+}
+#imageform2fuelength{
+    height:9.5rem;
+    width:1.45rem;
+    position:absolute;
+    background-color:orange;
+    left:57.7rem;
+    bottom:15.8rem;
+    visibility:hidden;
+}
+#form2arrow1{
+    left:47.5rem;
+    top:19rem;
+    rotate:90deg;
+}
+
+#waterindicatorimage{
+    position:absolute;
+    top:10rem;
+    left:51rem;
+    
+
+}
+#form2waterindication{
+    height:13rem;
+    visibility: hidden;
+}
+#form2arrow2{
+    left:52.4rem;
+    bottom:10rem;
+    visibility: hidden;
+}
+#imageform2waterlength1{
+    position:absolute;
+    height:8.7rem;
+    width:1.4rem;
+    left:54.8rem;
+    bottom:19.1rem;
+    background-color: skyblue;
+    visibility: hidden;
+}
+#imageform2waterlength2{
+    position:absolute;
+    height:8.7rem;
+    width:1.4rem;
+    left:59.8rem;
+    bottom:19rem;
+    background-color: skyblue;
+    visibility: hidden;
+}
+
+@keyframes ringblinking{
+    0%{opacity:1;}
+    25%{opacity:0;}
+    50%{opacity:1;}
+    75%{opacity:0;}
+    100%{opacity:1;}
+}
+#form2ring1{
+    border-radius:50%;
+    position:absolute;
+    width:2.5rem;
+    height:2.5rem;
+    left:37.3rem;
+    bottom:5.5rem;
+    border:solid;
+    border-color: red;
+    visibility:hidden;
+    transition-delay:1s;
+    animation-name: ringblinking;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+#form2ring2{
+    border-radius:50%;
+    position:absolute;
+    width:2.5rem;
+    height:2.5rem;
+    left:40.2rem;
+    bottom:5.5rem;
+    border:solid;
+    border-color:red;
+    visibility:hidden;
+    animation-name: ringblinking;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+#form2needle1{
+    position:absolute;
+    left:38.5rem;
+    height:0.8rem;
+    width:0.4rem;
+    bottom:6.6rem;
+}
+
+#form2needle2{
+    position:absolute;
+    left:41.25rem;
+    height:0.8rem;
+    width:0.4rem;
+    bottom:6.6rem;
+}
+#waterhandle{
+    position:absolute;
+    height:0.2rem;
+    width:2.5rem;
+    border:solid;
+    left:52.9rem;
+    bottom:9.7rem;
+    border-width:0.1rem;
+    /* background-color:black; */
+}
+#form2wheel{
+    height:5rem;
+    position:absolute;
+    left:7.3rem;
+    bottom:13.6rem;
+    border-radius:50%;
+}
+#form2arrow3{
+    position:absolute;
+    left:12.5rem;
+    bottom:15rem;
+    rotate:90deg;
+    visibility:hidden;  
+}
+#crankstick{
+    position:absolute;
+    height:8rem;
+    width:0.5rem;
+    border:solid;
+    left:33.8rem;
+    bottom:11rem;
+    border-width:0.1rem;
+    animation-duration:2s;
+    animation-iteration-count:4;
+    
+}
+@keyframes crank{
+    0%{tranform:rotateX(0deg);}
+    10%{transform:rotateX(36deg);}
+    20%{transform:rotateX(72deg);}
+    30%{transform:rotateX(108deg);}
+    40%{transform:rotateX(144deg);}
+    50%{transform:rotateX(180deg);}
+    60%{transform:rotateX(216deg);}
+    70%{transform:rotateX(252deg);}
+    80%{transform:rotateX(288deg);}
+    90%{transform:rotateX(324deg);}
+    100%{transform:rotateX(360deg);}
+}
+#form2arrow4{
+    position:absolute;
+    left:48rem;
+    bottom:17rem;
+    rotate:90deg;
+    visibility:hidden;
+}
+#form2handle{
+    position:absolute;
+    height:0.3rem;
+    width:1.5rem;
+    left:46rem;
+    bottom:17.73rem;
+}
+#form2arrow5{
+    position:absolute;
+    left:34.5rem;
+    bottom:13rem;
+    rotate:90deg;
+    visibility: hidden;
+}
+#nextbtn2{
+    visibility:hidden;
+    transition-delay:9s;
+}
+/* form3 */
+#formpic3_0{
+    height:30rem;
+    width:54rem;
+}
+#form3wheel{
+    position:absolute;
+    height:5rem;
+    width:5rem;
+    left:7rem;
+    bottom:14rem;
+    border-radius:50%;
+    rotate:30deg;
+}
+#form3arrow1{
+    position:absolute;
+    left:12.5rem;
+    bottom:15rem;
+    rotate:90deg;
+}
+#form3fuellength{
+    position:absolute;
+    height:4.8rem;
+    width:0.7rem;
+    background-color: orange;
+    left:45.7rem;
+    bottom:18.9rem;
+    animation-duration:6s;
+    animation-iteration-count:1;
+    
+}
+@keyframes form3actualfuel{
+    0%{height:4.8rem; }
+    100%{height:3.5rem;}
+}
+#imageform3fuelindication{
+    position:absolute;
+    height:14rem;
+    width:12rem;
+    left:50rem;
+    visibility:hidden;
+
+}
+#imageform3fuellength{
+    position:absolute;
+    height:9.1rem;
+    width:1.8rem;
+    background-color:orange;
+    left:55.8rem;
+    bottom:19.8rem;
+    animation-duration:6s;
+    animation-iteration-count:1;
+    visibility:hidden;
+}
+/* 9.4 to 7 */
+@keyframes form3fuel{
+    0%{height:9.4rem;}
+    10%{height:9.16rem;}
+    20%{height:8.92rem;}
+    30%{height:8.68rem;}
+    40%{height:8.44rem;}
+    50%{height:8.2rem;}
+    60%{height:7.96rem;}
+    70%{height:7.72rem;}
+    80%{height:7.48rem;}
+    90%{height:7.24rem;}
+    100%{height:7rem;}
+}
+#form3arrow2{
+    position:absolute;
+    left: 47rem;
+    bottom:16.5rem;
+    rotate:90deg;
+    visibility:hidden;
+}
+#form3arrow3{
+    position:absolute;
+    left:47rem;
+    bottom:16.5rem;
+    rotate:90deg;
+    visibility:hidden;
+    transition-delay:7s;
+}
+#form3handle{
+    position:absolute;
+    height:0.3rem;
+    width:1.5rem;
+    left:45.4rem;
+    bottom:17.9rem;
+}
+#form3dailgauge{
+    position:absolute;
+    height:16.5rem;
+    width:16.5rem;
+    left:49.3rem;
+    border-radius:50%;
+    /* visibility:hidden; */
+}
+#dailindicatorstick{
+    position:absolute;
+    width:0.3rem;
+    height:5rem;
+    background-color: black;
+    left:1.5rem;
+    bottom:0.5rem;
+    /* visibility:hidden; */
+}
+#dailstickmover{
+    position:absolute;
+    left:56.10rem;
+    bottom:22rem;
+    height:3rem;
+    width:3rem;
+    border-radius:50%; 
+}
+#nextbtn3{
+    visibility:hidden;
+}
+
+#clock{
+    position:absolute;
+    height:8rem;
+    width:8rem;
+    border-radius:50%;
+    left:54rem;
+    top:24rem;
+    visibility:hidden;
+}
+#clockneedlemover{
+    height:2rem;
+    width:2rem;
+    position:absolute;
+    background-color: transparent;
+    border-radius:50%;
+    left:57rem;
+    bottom:11rem;
+    animation-duration:6s;
+    animation-iteration-count:1;
+}
+#clockneedle{
+    position:absolute;
+    height:2.5rem;
+    width:0.2rem;
+    background-color: black;
+    left:0.9rem;
+    bottom:1rem;
+    visibility:hidden;
+    
+}
+@keyframes timer{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(570deg);}
+}
+
+#form3turner{
+    position:absolute;
+    height:1.5rem;
+    width:1.5rem;
+    left:-0.3rem;
+    bottom:-0.25rem;
+    border-radius:50%;
+}
+#form3turnermover{
+   position:absolute;
+   height:1rem;
+   width:1rem;
+   border-radius:50%;
+   border:solid;
+   left:36.3rem;
+   bottom:22rem;
+   rotate:-90deg;
+}
+#directionform31{
+    position:absolute;
+    height:3rem;
+    width:0.8rem;
+    left:48.15rem;
+    bottom:18rem;
+    rotate:90deg;
+    visibility:hidden;
+}
+
+#form3ring1{
+        position:absolute;
+        height:4rem;
+        width:4rem;
+        left:35rem;
+       bottom:20.3rem;
+       border:solid;
+        border-radius:50%;
+        border-color:red;
+        animation-name:  ringblinking;
+        animation-duration: 2s;
+       animation-iteration-count: infinite;
+       visibility:hidden;
+}
+#form3ring2{
+    position:absolute;
+    height:4rem;
+    width:4rem;
+    left:35rem;
+   bottom:20.3rem;
+   border:solid;
+    border-radius:50%;
+    border-color:red;
+    animation-name:  ringblinking;
+    animation-duration: 2s;
+   animation-iteration-count: infinite;
+   visibility:hidden;
+}
+
+#indicatortemperature{
+    color:white;
+    position:absolute;
+    height:1rem;
+    width:2.5rem;
+    border:solid;
+    /* border-color:red; */
+    left:40.5rem;
+    bottom:21.8rem;
+    visibility:hidden;
+    border-color:black;
+}
+/* form4 */
+#data{
+    visibility:hidden;
+}
+#finaldata{
+    height:17rem;
+    width:40rem;
+    position:absolute;
+    left:10rem;
+    bottom:18.5rem;
+    transition-delay: 3s;
+}
+
+#efficiency{
+    position:absolute;
+    height:26.5rem;
+    left:29.5rem;
+    bottom:7rem;
+}
+#bp{
+    position:absolute;
+    left:10rem;
+    bottom:15rem;
+    height:3.5rem;
+}
+#tfc{
+    position:absolute;
+    width:20rem;
+    left:30rem;
+    bottom:16.5rem;
+}
+input{
+    width:3.5rem;
+    position:absolute;
+    text-align:center;
+}
+h3{
+    position:absolute;
+    border:none;
+    font-size:1rem;
+    font-weight:100;
+}
+#input1bp{
+    left:9rem;
+    bottom:9.5rem;
+}
+#input1tfc{
+    left:9rem;
+    bottom:7rem;
+}
+#input2bp{
+    left:24rem;
+    bottom:9.5rem;
+}
+#input2tfc{
+    left:24rem;
+    bottom:7rem;
+}
+#input3bp{
+    left:39rem;
+    bottom:9.5rem;
+}
+#input3tfc{
+    left:39rem;
+    bottom:7rem;
+}
+#input4bp{
+    left:54rem;
+    bottom:9.5rem;
+}
+#input4tfc{
+    left:54rem;
+    bottom:7rem;
+}
+#threekg{
+    left:5rem;
+    bottom:6rem;
+}
+#sixkg{
+    left:20rem;
+    bottom:6rem;
+}
+#ninekg{
+    left:35rem;
+    bottom:6rem;
+}
+#twelvekg{
+    left:50rem;
+    bottom:6rem;
+}
+#check1{
+    position:absolute;
+    left:8rem;
+    bottom:4rem;
+}
+#check2{
+    position:absolute;
+    left:23rem;
+    bottom:4rem;
+}
+#check3{
+    position:absolute;
+    left:38rem;
+    bottom:4rem;
+}
+#check4{
+    position:absolute;
+    left:53rem;
+    bottom:4rem;
+}
+#bptfcgraph{
+    position:absolute;
+    height:25rem;
+    width:54rem;
+    left:5rem;
+    bottom:2rem;
+    border:solid;
+    border-color:black;
+    transition-delay: 3s;
+    visibility: hidden;
+}
+#nextbtn4{
+    visibility:hidden;
+}
+#tf{
+    position:absolute;
+    left:7rem;
+    bottom:30rem;
+    font-size:1.3rem;
+    visibility:hidden;
+    transition-delay: 3s;
+}
+/* form5 */
+#formula{
+    position:absolute;
+    width:30rem;
+    left:10rem;
+    bottom:25rem;
+}
+#bptfcvalues{
+    position:absolute;
+    height:15rem;
+    left:45rem;
+    bottom:20rem;
+}
+#input{
+    position:absolute;
+    left:3.5rem;
+    bottom:4rem;
+}
+#threekg1{
+    position:absolute;
+    left:15rem;
+    bottom:17rem;
+}
+#sixkg1{
+    position:absolute;
+    left:25rem;
+    bottom:17rem;
+}
+#ninekg1{
+    position:absolute;
+    left:35rem;
+    bottom:17rem;  
+}
+#twelvekg1{
+    position:absolute;
+    left:45rem;
+    bottom:17rem;
+}
+#fp1{
+    position:absolute;
+    left:15rem;
+    bottom:16rem;
+}
+#bmep1{
+    position:absolute;
+    left:15rem;
+    bottom:13.5rem;
+}
+#mechanicalefficiency1{
+    position:absolute;
+    left:15rem;
+    bottom:10.5rem;
+}
+#indicatorefficiency1{
+    position:absolute;
+    left:15rem;
+    bottom:8rem;
+}
+#brakeefficiency1{
+    position:absolute;
+    left:15rem;
+    bottom:5rem;
+}
+#fp2{
+    position:absolute;
+    left:25rem;
+    bottom:16rem;
+}
+#bmep2{
+    position:absolute;
+    left:25rem;
+    bottom:13.5rem;
+}
+#mechanicalefficiency2{
+    position:absolute;
+    left:25rem;
+    bottom:10.5rem;
+}
+#indicatorefficiency2{
+    position:absolute;
+    left:25rem;
+    bottom:8rem;
+}
+#brakeefficiency2{
+    position:absolute;
+    left:25rem;
+    bottom:5rem;
+}
+#fp3{
+    position:absolute;
+    left:35rem;
+    bottom:16rem;
+}
+#bmep3{
+    position:absolute;
+    left:35rem;
+    bottom:13.5rem;
+}
+#mechanicalefficiency3{
+    position:absolute;
+    left:35rem;
+    bottom:10.5rem;
+}
+#indicatorefficiency3{
+    position:absolute;
+    left:35rem;
+    bottom:8rem;
+}
+#brakeefficiency3{
+    position:absolute;
+    left:35rem;
+    bottom:5rem;
+}
+#fp4{
+    position:absolute;
+    left:45rem;
+    bottom:16rem;
+}
+#bmep4{
+    position:absolute;
+    left:45rem;
+    bottom:13.5rem;
+}
+#mechanicalefficiency4{
+    position:absolute;
+    left:45rem;
+    bottom:10.5rem;
+}
+#indicatorefficiency4{
+    position:absolute;
+    left:45rem;
+    bottom:8rem;
+}
+#brakeefficiency4{
+    position:absolute;
+    left:45rem;
+    bottom:5rem;
+}
+#check11{
+    position:absolute;
+    left:15rem;
+    bottom:3rem;   
+}
+#check12{
+    position:absolute;
+    left:25rem;
+    bottom:3rem;
+}
+#check13{
+    position:absolute;
+    left:35rem;
+    bottom:3rem;
+}
+#check14{
+    position:absolute;
+    left:45rem;
+    bottom:3rem;
+}
+#nextbtn5{
+    visibility:hidden;
+}
+#efficiencygraph{
+    position:absolute;
+    height:35rem;
+    width:61.5rem;
+    bottom:1rem;
+    left:2rem;
+    visibility:hidden;
+    transition-delay: 3s;
+}
+bold{
+    text-decoration:underline;
+    font-size:1rem;
+}
+#reload{
+    height:2rem;
+}
