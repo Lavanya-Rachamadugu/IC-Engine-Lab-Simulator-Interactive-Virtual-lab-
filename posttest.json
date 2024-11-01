@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "If a single-cylinder diesel engine produces 60 kW of Brake Power and has an efficiency of 35%, what is its Indicated Power?",
+      "answers": {
+        "a": "42 kW",
+        "b": "85.71 kW",
+        "c": "171.43 kW",
+        "d": "57 kW"
+      },
+      "explanations": {
+        "a": "Indicated Power (kW) = Brake Power (kW) / Efficiency = 60 kW / 0.35 ≈ 171.43 kW",
+        "b": "Indicated Power (kW) = Brake Power (kW) / Efficiency = 60 kW / 0.35 ≈ 171.43 kW",
+        "c": "Indicated Power (kW) = Brake Power (kW) / Efficiency = 60 kW / 0.35 ≈ 171.43 kW",
+        "d": "Indicated Power (kW) = Brake Power (kW) / Efficiency = 60 kW / 0.35 ≈ 171.43 kW"
+      },
+      "correctAnswer": "c",
+      "difficulty": "hard"
+    },
+    {
+      "question": " If a single-cylinder diesel engine has an Indicated Power of 25 kW and a Brake Power of 22 kW, what is its Mechanical Efficiency?",
+      "answers": {
+        "a": "88%",
+        "b": "90%",
+        "c": "92%",
+        "d": "95%"
+      },
+      "explanations": {
+        "a": " Mechanical Efficiency (%) = (Brake Power / Indicated Power) * 100 ≈ (22 kW / 25 kW) * 100 ≈ 88%",
+        "b": " Mechanical Efficiency (%) = (Brake Power / Indicated Power) * 100 ≈ (22 kW / 25 kW) * 100 ≈ 88%",
+        "c": " Mechanical Efficiency (%) = (Brake Power / Indicated Power) * 100 ≈ (22 kW / 25 kW) * 100 ≈ 88%",
+        "d": " Mechanical Efficiency (%) = (Brake Power / Indicated Power) * 100 ≈ (22 kW / 25 kW) * 100 ≈ 88%"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the relationship between Brake Power and Mechanical Efficiency?",
+      "answers": {
+        "a": "As Brake Power increases, Mechanical Efficiency increases",
+        "b": "As Brake Power increases, Mechanical Efficiency decreases",
+        "c": "Brake Power and Mechanical Efficiency are not related.",
+        "d": "Brake Power and Mechanical Efficiency increase proportionally."
+      },
+      "explanations": {
+        "a": "Brake Power and Mechanical Efficiency are inversely related. As Brake Power increases, the losses within the engine also increase, leading to a decrease in Mechanical Efficiency.",
+        "b": "Brake Power and Mechanical Efficiency are inversely related. As Brake Power increases, the losses within the engine also increase, leading to a decrease in Mechanical Efficiency.",
+        "c": "Brake Power and Mechanical Efficiency are inversely related. As Brake Power increases, the losses within the engine also increase, leading to a decrease in Mechanical Efficiency.",
+        "d": "Brake Power and Mechanical Efficiency are inversely related. As Brake Power increases, the losses within the engine also increase, leading to a decrease in Mechanical Efficiency."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the main advantage of using the Willian's line method in engine performance analysis?",
+      "answers": {
+        "a": "It provides a graphical representation of brake power.",
+        "b": "It accurately measures engine friction losses.",
+        "c": "It accounts for variations in ambient conditions.",
+        "d": "It calculates indicated power without a dynamometer."
+      },
+      "explanations": {
+        "a": "The main advantage of the Willian's line method is that it accounts for variations in ambient conditions, such as air temperature and pressure, providing a more accurate analysis of engine performance.",
+        "b": "The main advantage of the Willian's line method is that it accounts for variations in ambient conditions, such as air temperature and pressure, providing a more accurate analysis of engine performance.",
+        "c": "The main advantage of the Willian's line method is that it accounts for variations in ambient conditions, such as air temperature and pressure, providing a more accurate analysis of engine performance.",
+        "d": "The main advantage of the Willian's line method is that it accounts for variations in ambient conditions, such as air temperature and pressure, providing a more accurate analysis of engine performance."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The Compression Ratio of a single-cylinder diesel engine is increased. How will it affect the Brake Power?",
+      "answers": {
+        "a": "Brake Power will decrease.",
+        "b": "Brake Power will increase.",
+        "c": "Brake Power will remain the same.",
+        "d": "Brake Power will decrease initially and then increase."
+      },
+      "explanations": {
+        "a": "Increasing the Compression Ratio can lead to improved efficiency, but the direct effect on Brake Power is not significant. Therefore, Brake Power will remain relatively constant.",
+        "b": "Increasing the Compression Ratio can lead to improved efficiency, but the direct effect on Brake Power is not significant. Therefore, Brake Power will remain relatively constant.",
+        "c": "Increasing the Compression Ratio can lead to improved efficiency, but the direct effect on Brake Power is not significant. Therefore, Brake Power will remain relatively constant.",
+        "d": "Increasing the Compression Ratio can lead to improved efficiency, but the direct effect on Brake Power is not significant. Therefore, Brake Power will remain relatively constant."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}

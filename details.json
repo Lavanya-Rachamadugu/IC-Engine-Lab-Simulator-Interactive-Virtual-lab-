@@ -1,0 +1,63 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Performance of Single Cylinder Four stroke Diesel Engine",
+			"Lab": "IC Engines",
+			"Discipline": "Mechanical Engineering",
+			"Technology": "HTML, CSS and JS"
+       }
+   ],
+
+   "developer": [
+       {
+      "Developer": "",
+      "Institute": "",
+      "InstituteAcronym": ""
+       }
+   ],
+     
+
+   "contributer": [
+
+      
+       {
+  			"Contributer": "Rachamadugu Lavanya",
+        "Institute": "National Institue of technology",
+  			"InstituteAcronym": "NITK"
+       },
+
+       {
+        "Contributer": "",
+        "Institute": "",
+        "InstituteAcronym": ""
+        },
+
+       
+
+       {
+    			"Contributer": "",
+          "Institute": "",
+    			"InstituteAcronym": ""
+       },
+
+       {
+         "Contributer": "",
+          "Institute": "",
+         "InstituteAcronym": ""
+       },
+
+       {
+         "Contributer": "",
+          "Institute": "",
+         "InstituteAcronym": ""
+       },
+
+       {
+         "Contributer": "",
+          "Institute": "",
+         "InstituteAcronym": ""
+       }
+   ]
+
+}

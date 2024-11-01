@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the ratio of Brake Power to Indicated Power called?",
+      "answers": {
+        "a": "Mechancial Efficiency",
+        "b": "Indicator Thermal Efficiency",
+        "c": "Compression Ratio",
+        "d": "Brake Specific Fuel Consumption "
+      },
+      "explanations": {
+        "a": "The ratio of Brake Power to Indicated Power is called Mechanical Efficiency.",
+        "b": "It is the ratio of indicated power to the product of  total fuel consumption and calorific value.",
+        "c": "The ratio of total swept volume to total compressed volume  is compression ratio.",
+        "d": "The ratio of total fuel consumption to the fuel power is BSFC"
+      },
+      "correctAnswer": "a",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the Brake Specific Fuel Consumption (BSFC) of an engine with a Brake Power of 20 kW and consumes fuel at a rate of 0.4 kg/h?",
+      "answers": {
+        "a": "0.02 kg/kWh",
+        "b": "0.025 kg/kWh",
+        "c": "0.03 kg/kWh",
+        "d": "0.035 kg/kWh"
+      },
+      "explanations": {
+        "a": "BSFC = Fuel Consumption (kg/h) / Brake Power (kW) = 0.4 kg/h / 20 kW = 0.025 kg/kWh",
+        "b": "BSFC = Fuel Consumption (kg/h) / Brake Power (kW) = 0.4 kg/h / 20 kW = 0.025 kg/kWh",
+        "c": "BSFC = Fuel Consumption (kg/h) / Brake Power (kW) = 0.4 kg/h / 20 kW = 0.025 kg/kWh",
+        "d": "BSFC = Fuel Consumption (kg/h) / Brake Power (kW) = 0.4 kg/h / 20 kW = 0.025 kg/kWh"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How is Indicator Efficiency calculated in a single-cylinder diesel engine?",
+      "answers": {
+        "a": "(Indicated Power / Brake Power) * 100",
+        "b": "(Brake Power / Indicated Power) * 100",
+        "c": "(Brake Power - Indicated Power) * 100",
+        "d": "(Indicated Power - Brake Power) * 100"
+      },
+      "explanations": {
+        "a": "Indicator Efficiency is calculated as (Brake Power / Indicated Power) * 100",
+        "b": "Indicator Efficiency is calculated as (Brake Power / Indicated Power) * 100",
+        "c": "Indicator Efficiency is calculated as (Brake Power / Indicated Power) * 100",
+        "d": "Indicator Efficiency is calculated as (Brake Power / Indicated Power) * 100"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which parameter reflects the losses in the engine's mechanical and electrical components?",
+      "answers": {
+        "a": "Brake Power",
+        "b": "Indicator power",
+        "c": "Mechanical Efficiency",
+        "d": "Indicator thermal Efficiency"
+      },
+      "explanations": {
+        "a": "The brake power is the power available at the crankshaft.",
+        "b": "indicator power is the sum of brake power and friction power.",
+        "c": "Mechanical efficiency is usually the ratio of the power delivered by a mechanical system to the power supplied to it.",
+        "d": "Indicated thermal efficiency is the ratio of energy in the indicated power to the fuel energy"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What does the term 'brake' in Brake Power refer to?",
+      "answers": {
+        "a": "The brake system of the engine used for stopping.",
+        "b": "The brake system of the dynamometer used in testing.",
+        "c": "The brake system of the vehicle driven by the engine.",
+        "d": "The brake system of the engine used for torque measurement."
+      },
+      "explanations": {
+        "a": "The term 'brake' in Brake Power refers to the brake system of the dynamometer used to measure the power output of the engine.",
+        "b": "The term 'brake' in Brake Power refers to the brake system of the dynamometer used to measure the power output of the engine.",
+        "c": "The term 'brake' in Brake Power refers to the brake system of the dynamometer used to measure the power output of the engine.",
+        "d": "The term 'brake' in Brake Power refers to the brake system of the dynamometer used to measure the power output of the engine."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}
